@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'greeting/index'
+  get 'greeting/random', to: 'greeting#index'
 end
